@@ -1,5 +1,6 @@
-name = raw_input("What is your name")
-noun = raw_input("Give me a noun.")
-verb = raw_input("Give me a verb")
+animal = raw_input("Name an animal: ")
+food = raw_input("Name a food: ")
+noun = raw_input("Give me a noun: ")
+verb = raw_input("Give a verb: ")
 
-print "%s %s down the %s fast." % (name, verb, noun)
+print "If you give a %s a %s, he is going to ask for a %s. When you give him the %s, he will want to %s." % (animal, food, noun, noun, verb)
