@@ -1,0 +1,20 @@
+"""name = raw_input("What is your name? ")
+count = len(name)
+print "Hello %s" % (name.upper())
+print "You have %d letters in your name." % (count)"""
+
+verb = raw_input("Enter a verb: ")
+adj = raw_input("Enter an adjective: ")
+verbIng = raw_input("Enter a verb with an 'ing': ")
+bodyPart = raw_input("Enter a body part: ")
+adverb = raw_input("Enter an adverb: ")
+bodyPart2 = raw_input("Enter a body part: ")
+pluralNoun = raw_input("Enter a plural noun: ")
+verb2 = raw_input("Enter a verb: ")
+animals = raw_input("Enter an animal: ")
+noun = raw_input("Enter a noun: ")
+verb3 = raw_input("Enter a verb: ")
+adj2 = raw_input("Enter an adjective: ")
+color = raw_input("Enter a color: ")
+
+print  """Most doctors agree that  bicycle %s is a/an %s form of exercise. %s a bicycle enables you to develop your %s muscles as well as %s increase the rate of your %s beat. More %s around the world %s bicycles than drive %s. No matter what kind of %s you %s, always be sure to wear a/an %s helmet. Make sure to have %s reflectors too!""" % (verb, adj, verbIng, bodyPart, adverb, bodyPart2, pluralNoun, verb2, animals, noun, verb3, adj2, color)
